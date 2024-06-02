@@ -1,0 +1,44 @@
+.resume {
+  min-height: 11in;
+  background: white;
+  border: 1px solid lightgray;
+  padding: 1.5rem;
+  font-size: 15px;
+  align-self: center;
+
+  @media only screen and (min-width: 768px) {
+    min-width: 25.5rem;
+    padding: 3rem;
+  }
+
+  @media only screen and (min-width: 992px) {
+    width: 51rem;
+    padding: 6rem;
+  }
+}
+
+.resume > * {
+  margin: 0.5rem 0;
+}
+
+.contactInfo > * {
+  display: inline-block;
+}
+
+.contactInfo > *:not(:last-child)::after {
+  content: "\B7";
+  padding: 0 0.5rem;
+}
+
+.skillsList {
+  list-style: none;
+  padding-left: 0;
+}
+
+.skillsList li {
+  display: inline;
+}
+
+.skillsList li:not(:last-of-type)::after {
+  content: ", "
+}

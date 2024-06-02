@@ -1,0 +1,9 @@
+import s from "./Contact.module.css";
+
+export default function Contact() {
+  return (
+    <section id="contact">
+      <h1>Contact</h1>
+    </section>
+  );
+}
