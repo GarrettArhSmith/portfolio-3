@@ -20,15 +20,15 @@ export default function Nav() {
         <p>08/2021 - 08/2023</p>
         <h4>Associate ECommerce Engineer</h4>
         <ul>
-          <li>Contributed to the successful integration of the 'Save for Later' feature for the bag page, increasing conversion rates.</li>
+          <li>Contributed to the successful integration of the &apos;Save for Later&apos; feature for the bag page, increasing conversion rates.</li>
           <li>Successfully implemented a redesign of Bag and Checkout pages, resulting in enhanced user experience and increased conversion rates.</li>
           <li>Revamped Product List & Search pages, expanding the grid & introducing new components for improved user experience, engagement, and control.</li>
-          <li>Enhanced checkout with 'Tender Type Promotions' feature, allowing for PLCC and other tender type specific discounts, boosting conversions and retention rates.</li>
+          <li>Enhanced checkout with &apos;Tender Type Promotions&apos; feature, allowing for PLCC and other tender type specific discounts, boosting conversions and retention rates.</li>
         </ul>
         <h4>Contract - ReactJS Engineer</h4>
         <ul>
           <li>Identified & resolved critical site issues, troubleshooting and debugging for a seamless user experience. Maintaining code hygiene, enhancing functionality and performance.</li>
-          <li>Contributed to the company's proprietary, reusable front-end UI component library.</li>
+          <li>Contributed to the company&apos;s proprietary, reusable front-end UI component library.</li>
           <li>Perform daily code reviews for peers to ensure we correctly implement business objectives without sacrificing code quality.</li>
           <li>Develop new features, convert mock-ups in Figma and InVision to code, and write unit tests with Jest, Enzyme, and React Testing Library.</li>
         </ul>
