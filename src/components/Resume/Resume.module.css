@@ -5,10 +5,12 @@
   padding: 1.5rem;
   font-size: 15px;
   align-self: center;
+  scroll-margin-top: 5.5rem;
 
   @media only screen and (min-width: 768px) {
     min-width: 25.5rem;
     padding: 3rem;
+    scroll-margin-top: 0px;
   }
 
   @media only screen and (min-width: 992px) {

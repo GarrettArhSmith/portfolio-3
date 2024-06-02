@@ -24,10 +24,10 @@ export default function Nav() {
         </span>
       </div>
       <ul className={`${s.navList} ${isOpen && s.navListOpen}`}>
-        <li><Link href="#about">About</Link></li>
-        <li><Link href="#work">Work</Link></li>
-        <li><Link href="#contact">Contact</Link></li>
-        <li><Link href="#resume">Resume</Link></li>
+        <li><a href="#about" onClick={toggleNav}>About</a></li>
+        <li><a href="#work" onClick={toggleNav}>Work</a></li>
+        <li><a href="#contact" onClick={toggleNav}>Contact</a></li>
+        <li><a href="#resume" onClick={toggleNav}>Resume</a></li>
       </ul>
     </nav>
   );
