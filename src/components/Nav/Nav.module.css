@@ -61,16 +61,19 @@
   list-style: none;
   padding-left: 0;
   opacity: 0;
-  transition: 0.1s ease;
+  transition: opacity 0.1s ease;
+  transform: translateX(-100rem);
 
   @media only screen and (min-width: 768px) {
     opacity: 1;
+    transform: translateX(0);
   }
 }
 
 .navListOpen {
   opacity: 1;
-  transition: 0.5s ease;
+  transition: opacity 0.5s ease;
+  transform: translateX(0);
 }
 
 .navList li {

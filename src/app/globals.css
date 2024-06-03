@@ -99,7 +99,6 @@ a {
 }
 
 section {
-  padding: 0 1rem;
   scroll-margin-top: 5.5rem;
 
   @media only screen and (min-width: 768px) {
