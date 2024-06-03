@@ -13,7 +13,11 @@ const workItems = [
     title: "Tic-Tac-Toe"
   },
   {
-    id: 1,
+    id: 2,
+    title: "This Portfolio"
+  },
+  {
+    id: 3,
     title: "V School Projects"
   },
 ]

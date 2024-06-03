@@ -15,7 +15,7 @@ export default function Nav() {
     <nav className={`${s.navContainer} ${isOpen && s.navContainerOpen}`}>
       <div className={s.header}>
         <span>
-          <h1>Garrett Smith</h1>
+          <h1 className={s.name}>Garrett Smith</h1>
           <h4>Software Engineer</h4>
         </span>
         <span className={s.menuIcon} onClick={toggleNav}>
