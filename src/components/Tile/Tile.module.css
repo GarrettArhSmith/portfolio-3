@@ -1,4 +1,8 @@
 .tile {
   border: 1px solid lightgray;
-  padding: 1rem;
+  position: relative;
 }
+
+/* .tile img {
+  position: relative !important;
+} */
