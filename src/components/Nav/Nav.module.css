@@ -11,6 +11,7 @@
   border-bottom: 1px solid lightgray;
   transition: 0.2s ease;
   height: 5rem;
+  z-index: 999;
 
   @media only screen and (min-width: 768px) {
     height: 100vh;

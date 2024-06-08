@@ -3,7 +3,7 @@ import s from "./Contact.module.css";
 export default function Contact() {
   return (
     <section id="contact">
-      <h1>Contact</h1>
+      <h1 className="sectionTitle">Contact</h1>
       <address className={s.contactInfo}>
         <a href="https://garrettsmith.me/">garrettsmith.me</a>
         <a href="https://www.linkedin.com/in/garrettarhsmith">linkedin.com/in/garrettarhsmith</a>

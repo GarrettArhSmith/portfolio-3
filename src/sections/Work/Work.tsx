@@ -30,7 +30,7 @@ const workItems = [
 export default function Work() {
   return (
     <section id="work">
-      <h1>Work</h1>
+      <h1 className="sectionTitle">Work</h1>
       <div className={s.workItems}>
         {workItems.map(item => (
           <Tile key={item.id}>
@@ -38,9 +38,19 @@ export default function Work() {
               src={item.img}
               alt={item.title}
               sizes="100vw"
-              style={{objectFit: "cover", objectPosition: "center top", maskImage: "linear-gradient(rgb(0, 0, 0), rgba(0, 0, 0, 0))", width: '100%', height: 'auto', marginBottom: "-5rem"}}
+              style={{
+                objectFit: "cover",
+                objectPosition: "center top",
+                maskImage: "linear-gradient(rgb(0, 0, 0), rgba(0, 0, 0, 0))",
+                width: "100%",
+                height: "auto",
+                marginBottom: "-5rem",
+                position: "relative",
+                zIndex: -999,
+              }}
               width={500}
               height={300}
+              priority
             />}
             <div className={s.content}>
               <h3 className={s.title}>{item.title}</h3>

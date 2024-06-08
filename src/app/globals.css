@@ -119,3 +119,7 @@ h1 {
     color-scheme: dark;
   }
 }
+
+.sectionTitle {
+  font-size: 2em;
+}
