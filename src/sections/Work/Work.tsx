@@ -1,6 +1,7 @@
 import Image from 'next/image'
 import s from "./Work.module.css";
 import Tile from "@/components/Tile/Tile"
+import { FaGithub } from "react-icons/fa";
 
 const workItems = [
   {
@@ -13,12 +14,14 @@ const workItems = [
     id: 1,
     title: "Tic-Tac-Toe",
     img: "/tic-tac-toe.jpg",
-    description: "This is a project I'm working on using NextJS and Supabase. It's a realtime, online-multiplayer game."
+    description: "This is a project I'm working on using NextJS and Supabase. It's a realtime, online-multiplayer game.",
+    github: "https://github.com/GarrettArhSmith/tic-tac-toe"
   },
   {
     id: 2,
     title: "This Portfolio",
     description: "I have gone through many iterations and redesigns for my portfolio. What I am currently set on is this, the one you're looking at. Very minimalist. It's a work in progress, but it's getting there. I am using NextJS.",
+    github: "https://github.com/GarrettArhSmith/portfolio",
   },
   {
     id: 3,
@@ -53,18 +56,17 @@ export default function Work() {
               priority
             />}
             <div className={s.content}>
-              <h3 className={s.title}>{item.title}</h3>
+              <div className={s.head}>
+                <h3 className={s.title}>{item.title}</h3>
+                {item.github && (
+                  <a href={item.github} target="_blank"><button><FaGithub /></button></a>
+                )}
+              </div>
               <p>{item.description}</p>
             </div>
           </Tile>
         ))}
       </div>
-      {/* <Image
-        src="https://www.the-winston-project.imgix.net/610beec5aea874132acbafda/146_VSchool.png"
-        alt="VSchool Logo"
-        width={281}
-        height={70}
-      /> */}
     </section>
   );
 }
